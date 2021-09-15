@@ -1,0 +1,4 @@
+youtube-dl==2021.6.6
+Click==7.0
+moviepy==1.0.3
+
