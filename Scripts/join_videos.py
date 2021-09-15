@@ -6,9 +6,9 @@ import click
 @click.option('--target', type=str)
 def main(src, target):
     
-    clip_src_list =['/home/oeberle/Bifold/Youtube/Design/bifold_start_v2.mp4',
+    clip_src_list =['bifold_start_v2.mp4',
                     src,
-                   '/home/oeberle/Bifold/Youtube/Design/bifold_end_v1.mp4']
+                   'bifold_end_v1.mp4']
 
 
     clips = [ VideoFileClip(x) for x in clip_src_list]
